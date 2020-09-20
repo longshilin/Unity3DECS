@@ -18,16 +18,17 @@
 
 - Entitas ECS Unity Tutorial - Setup & Basics
 
-https://www.youtube.com/watch?v=L-18XRTarOM
+  https://www.youtube.com/watch?v=L-18XRTarOM
 
 - Entitas - Entity System Architecture with Unity - Unite Europe 2015
 
-https://www.youtube.com/watch?v=Re5kGtxTW6E
+  https://www.youtube.com/watch?v=Re5kGtxTW6E
 
 - Introduction to Entitas
 
-https://www.youtube.com/watch?v=0wodRUOoHKg&list=PL4pK6pSyCCvS3rLYUvm9_MQYX6QNkSc4a
+  https://www.youtube.com/watch?v=0wodRUOoHKg&list=PL4pK6pSyCCvS3rLYUvm9_MQYX6QNkSc4a
 
 - 2018.02.18 Entitas + Asteroids workshop
 
-https://www.youtube.com/watch?v=1qh6fTHeb5E
+  https://www.youtube.com/watch?v=1qh6fTHeb5E
+  
