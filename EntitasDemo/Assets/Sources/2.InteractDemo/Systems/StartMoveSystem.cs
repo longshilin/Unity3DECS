@@ -40,5 +40,4 @@ namespace InteractDemo
             return context.CreateCollector(InputMatcher.InteractDemoMouse);
         }
     }
-
 }

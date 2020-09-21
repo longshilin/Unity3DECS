@@ -6,12 +6,10 @@ using System.Collections.Generic;
 
 namespace InteractDemo
 {
-
     public class DirSystem : ReactiveSystem<GameEntity>
     {
         public DirSystem(Contexts contexts) : base(contexts.game)
         {
-
         }
 
         protected override void Execute(List<GameEntity> entities)
@@ -43,8 +41,5 @@ namespace InteractDemo
         {
             return context.CreateCollector(GameMatcher.InteractDemoMove);
         }
-
-       
     }
-
 }

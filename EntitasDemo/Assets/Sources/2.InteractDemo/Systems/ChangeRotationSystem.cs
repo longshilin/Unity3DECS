@@ -6,10 +6,9 @@ using System.Collections.Generic;
 
 namespace InteractDemo
 {
-
     public class ChangeRotationSystem : ReactiveSystem<GameEntity>
     {
-        public ChangeRotationSystem(Contexts  context) : base(context.game)
+        public ChangeRotationSystem(Contexts context) : base(context.game)
         {
         }
 
@@ -19,7 +18,7 @@ namespace InteractDemo
             {
                 Transform viewTransform = gameEntity.interactDemoView.ViewTransform;
                 var angle = gameEntity.interactDemoDir.Rotation * Mathf.Rad2Deg;
-                viewTransform.rotation=Quaternion.AngleAxis(angle-90.0f,Vector3.forward);
+                viewTransform.rotation = Quaternion.AngleAxis(angle - 90.0f, Vector3.forward);
             }
         }
 
@@ -34,5 +33,4 @@ namespace InteractDemo
             return context.CreateCollector(GameMatcher.InteractDemoDir);
         }
     }
-
 }

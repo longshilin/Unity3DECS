@@ -22,9 +22,9 @@ namespace InteractDemo
 
         protected override bool Filter(GameEntity entity)
         {
-            return entity.hasInteractDemoMove 
-                && entity.isInteractDemoMoveComplete
-                && entity.hasInteractDemoView;
+            return entity.hasInteractDemoMove
+                   && entity.isInteractDemoMoveComplete
+                   && entity.hasInteractDemoView;
         }
 
         protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context)
@@ -32,5 +32,4 @@ namespace InteractDemo
             return context.CreateCollector(GameMatcher.InteractDemoMove);
         }
     }
-
 }
